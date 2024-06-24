@@ -11,7 +11,7 @@ const PopupRoom = ({ popupInfo }) => {
   const { title, description, price, images } = popupInfo;
   const { dispatch } = useValue();
   return (
-    <Card sx={{ maxWidth: 400 }}>
+    <Card sx={{ maxWidth: 400, minWidth:400 }}>
       <ImageListItem sx={{ display: 'block' }}>
         <ImageListItemBar
           sx={{
