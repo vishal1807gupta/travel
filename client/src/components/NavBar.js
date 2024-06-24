@@ -42,7 +42,7 @@ const NavBar = () => {
               noWrap
               sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}
             >
-              You Are Welcome
+              YOU'RE WELCOME
             </Typography>
             <Typography
               variant="h6"
