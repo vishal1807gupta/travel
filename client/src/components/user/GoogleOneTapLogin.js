@@ -35,7 +35,7 @@ const GoogleOneTapLogin = () => {
       });
       window.google.accounts.id.prompt((notification) => {
         if (notification.isNotDisplayed()) {
-          throw new Error('Try to clear the cookies or try again later!');
+          throw new Error('Try to clear the cookies or try again later');
         }
         if (
           notification.isSkippedMoment() ||

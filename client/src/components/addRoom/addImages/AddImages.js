@@ -27,7 +27,7 @@ const AddImages = () => {
         <div style={{ padding: '16px' }} {...getRootProps()}>
           <input {...getInputProps()} />
           {isDragActive ? (
-            <p style={{ color: 'green' }}>Drop the files here...</p>
+            <p style={{ color: 'green' }}>Drop the files here</p>
           ) : (
             <p>Drag 'n' Drop some files here, or click to select files</p>
           )}

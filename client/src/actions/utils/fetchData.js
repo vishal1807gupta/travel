@@ -15,12 +15,12 @@ const fetchData = async (
       throw new Error(data.message);
     }
     return data.result;
-  } catch (error) {
+  } catch (e) {
     dispatch({
       type: 'UPDATE_ALERT',
-      payload: { open: true, severity: 'error', message: error.message },
+      payload: { open: true, severity: 'error', message: e.message },
     });
-    console.log(error);
+    console.log(e);
     return null;
   }
 };

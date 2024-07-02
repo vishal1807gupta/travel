@@ -44,7 +44,7 @@ const Login = () => {
         payload: {
           open: true,
           severity: 'error',
-          message: 'Passwords do not match',
+          message: 'Passwords did not match',
         },
       });
     register({ name, email, password }, dispatch);

@@ -46,7 +46,7 @@ export const login = tryCatch(async (req, res) => {
   if (!correctPassword)
     return res
       .status(400)
-      .json({ success: false, message: 'Invalid credentials' });
+      .json({ success: false, message: 'Invalid credentials!' });
 
   const { _id: id, name, photoURL, role, active } = existedUser;
   if (!active)

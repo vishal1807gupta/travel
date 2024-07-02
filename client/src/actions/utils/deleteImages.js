@@ -8,8 +8,8 @@ const deleteImages = async (images, userId) => {
     });
     try {
       await Promise.all(promises);
-    } catch (error) {
-      console.log(error);
+    } catch (e) {
+      console.log(e);
     }
   }
 };

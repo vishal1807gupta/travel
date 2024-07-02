@@ -59,7 +59,7 @@ const Profile = () => {
       <form onSubmit={handleSubmit}>
         <DialogContent dividers>
           <DialogContentText>
-            You can update your profile by updating these fields:
+            You can now update your profile by updating these fields:
           </DialogContentText>
 
           <TextField

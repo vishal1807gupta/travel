@@ -29,7 +29,7 @@ const auth = async (req, res, next) => {
     console.log(error);
     res.status(401).json({
       success: false,
-      message: 'Something is wrong with your authorization!',
+      message: 'Something is wrong with your authorization',
     });
   }
 };
