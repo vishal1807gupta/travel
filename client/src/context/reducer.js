@@ -105,7 +105,7 @@ const reducer = (state, action) => {
       return { ...state, section: action.payload };
 
     default:
-      throw new Error('No matched action!');
+      throw new Error('No matching action!');
   }
 };
 

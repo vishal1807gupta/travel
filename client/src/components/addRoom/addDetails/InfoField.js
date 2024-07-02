@@ -34,7 +34,7 @@ const InfoField = ({ mainProps, optionalProps = {}, minLength }) => {
       {...mainProps}
       {...optionalProps}
       error={error}
-      helperText={error && `This field must be ${minLength} characters or more`}
+      helperText={error && `This field must be of at least ${minLength} characters`}
       color={success ? 'success' : 'primary'}
       variant="outlined"
       onChange={handleChange}

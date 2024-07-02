@@ -69,7 +69,7 @@ export const updateProfile = async (currentUser, updatedFields, dispatch) => {
         payload: {
           open: true,
           severity: 'success',
-          message: 'Your profile has been updated successfully',
+          message: 'Your profile has been updated successfully!',
         },
       });
       dispatch({

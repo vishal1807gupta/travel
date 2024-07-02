@@ -49,7 +49,7 @@ export const deleteRoom = async (room, currentUser, dispatch) => {
       payload: {
         open: true,
         severity: 'success',
-        message: 'The room has been deleted successfully',
+        message: 'The room has been deleted successfully!',
       },
     });
 

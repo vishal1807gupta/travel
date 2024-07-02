@@ -133,7 +133,7 @@ const SideList = ({ open, setOpen }) => {
         component: <Requests {...{ setSelectedLink, link: 'requests' }} />,
       },
       {
-        title: 'Messages',
+        title: 'Messages ',
         icon: <MarkChatUnread />,
         link: 'messages',
         component: <Messages {...{ setSelectedLink, link: 'messages' }} />,

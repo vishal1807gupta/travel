@@ -28,12 +28,12 @@ const ProgressItem = ({ file }) => {
         if (updatedRoom)
           dispatch({ type: 'UPDATE_ADDED_IMAGES', payload: [url] });
         setImageURL(null);
-      } catch (error) {
+      } catch (e) {
         dispatch({
           type: 'UPDATE_ALERT',
-          payload: { open: true, severity: 'error', message: error.message },
+          payload: { open: true, severity: 'error', message: e.message },
         });
-        console.log(error);
+        console.log(e);
       }
     };
     setImageURL(URL.createObjectURL(file));
